@@ -6,12 +6,13 @@
 
 ### Download Selenium server
 
-    % curl http://selenium.googlecode.com/files/selenium-server-standalone-2.32.0.jar
+    % curl -O http://selenium.googlecode.com/files/selenium-server-standalone-2.32.0.jar
 
 ### Download chromedriver
 
-    % mv chromedriver2_mac32_0.8 /usr/local
-    ln -s /usr/local/chromedriver2_mac32_0.8/chromedriver /usr/local/bin/chromedriver
+    % curl -O https://chromedriver.googlecode.com/files/chromedriver2_mac32_0.8.zip
+    % unzip chromedriver2_mac32_0.8.zip
+    % mv chromedriver /usr/local/bin
 
 Note: /usr/local/bin shall be in our path
 
