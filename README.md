@@ -14,8 +14,6 @@
     % unzip chromedriver2_mac32_0.8.zip
     % mv chromedriver /usr/local/bin
 
-Note: /usr/local/bin shall be in our path
-
 ### Start Selenium server
 
      % java -jar selenium-server-standalone-2.21.0.jar -Dwebdriver.chrome.driver=/usr/local/bin/chromedriver
