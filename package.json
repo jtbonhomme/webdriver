@@ -1,0 +1,20 @@
+{
+  "name": "webdriver",
+  "private": true,
+  "description": "WebDriver/Selenium 2 node.js client",
+  "version": "0.0.1",
+  "author":  "CANAL+",
+  "dependencies": {
+    "grunt": "~0.4",
+    "grunt-contrib": "~0.4",
+    "grunt-mincer": "~0.3",
+    "grunt-mocha": "~0.2",
+    "mocha": "~1.8",
+    "chai": "~1.5",
+    "sinon-chai": "~2.3",
+    "sinon": "~1.6",
+    "benchmark": "~1.0",
+    "express": "~3.1",
+    "selenium-webdriver": "*"
+  }
+}
